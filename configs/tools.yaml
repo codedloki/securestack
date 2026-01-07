@@ -1,0 +1,14 @@
+- name: nextcloud
+  category: storage 
+  auth: oidc
+  deployment: docker 
+  maintained: true 
+
+
+- name : mattermost
+  category : chat
+  auth : oidc 
+  deployment: docker 
+  maintained : true 
+
+
